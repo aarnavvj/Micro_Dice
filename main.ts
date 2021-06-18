@@ -1,6 +1,7 @@
 let Number2 = 0
 input.onButtonPressed(Button.A, function () {
     Number2 = randint(1, 10)
+    // This project is a guessing game of which numbers ( 1 - 10 ) will come next.
     if (Number2 == 1) {
         basic.showLeds(`
             . . . . .
